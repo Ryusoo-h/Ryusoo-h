@@ -1,6 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:FFF3c0,30:FFC0DE,100:009FFF&height=250&section=header&text=ryusoo-h%20github&fontSize=60)
 
-README 업데이트 : 2023.07.12
+README 마지막 업데이트 : 2023.09.12
+
 # 소개
  <details>
   <summary>개발 공부</summary>
@@ -9,8 +10,8 @@ README 업데이트 : 2023.07.12
     <tbody>
      <tr>
       <td>
-       <img src="https://github.com/Ryusoo-h/readme-test/assets/67295471/aaec0f10-0c79-4dd8-a448-79d0a128c81b" alt="강의 학습 목록2" />
-       <img src="https://github.com/Ryusoo-h/readme-test/assets/67295471/1609bc02-84ef-49f3-8bc0-c692a4019f62" alt="강의 학습 목록1" />
+       <img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/3b806ae4-3e3a-41f7-a968-44b9cfe34e5c" alt="강의 학습 목록2" />
+       <img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/6b21b6c2-6842-4504-9eca-65bf589c5bcf" alt="강의 학습 목록1" />
       </td>
      </tr>
      <tr>
@@ -48,8 +49,10 @@ README 업데이트 : 2023.07.12
   <tr>
    <td>
      <b>최근 학습중 :</b>
+     <img align="top" src="https://img.shields.io/badge/react-61DAFB?style=flat&logo=react&logoColor=white" />
      <img align="top" src="https://img.shields.io/badge/webpack-8DD6F9?style=flat&logo=webpack&logoColor=white" />
      <img align="top" src="https://img.shields.io/badge/swr-000000?style=flat&logo=swr&logoColor=white" />
+     <img align="top" src="https://img.shields.io/badge/vite-646CFF?style=flat&logo=vite&logoColor=white" />
    </td>
   </tr>
   <tr>
@@ -119,12 +122,14 @@ README 업데이트 : 2023.07.12
 
 
 # 프로젝트
-주로 학습하며 이해를 위해 직접 연습을 하는 편입니다.
-<br>편하고 유용하게 사용할 수 있는 프로젝트를 만들고 싶습니다😁
-<br>좋은 코드로 작성하기위해 리펙토링하는 습관을 연습중입니다.
+학습한 것을 활용할 수 있는 프로젝트 또는 필요한 기능을 담은 프로젝트를 만듭니다.
+<br>사용자가 편하게 사용할 수 있는 유용한 프로젝트들을 만들고 싶습니다. 😁
+<br>상상만 하던 기능들을 거뜬히 구현할 수 있는 날을 기대하며 차근차근 학습중입니다.
+<br>클린 코딩과 성능 개선을 위해 리펙토링하는 습관을 들이고자 노력합니다.
 
 (최신순)
 <ol>
+ <li><a href="#printFont">printFont</a></li>
  <li><a href="#myboard">myBoard</a></li>
  <li><a href="#todolist--프리온보딩-프론트엔드-인턴십-6월-사전-과제">TODOLIST : 프리온보딩 프론트엔드 인턴십 (6월) 사전 과제</a></li>
  <li><a href="#날씨예보-앱">날씨예보 앱</a></li>
@@ -134,13 +139,46 @@ README 업데이트 : 2023.07.12
  <li><a href="#노마드코더-Zoom-클론코딩">노마드코더 Zoom 클론코딩</a></li>
 </ol>
 
+
+## printFont
+입력받은 글을 손글씨 스캔 자료에서 찾아 알려줍니다.
+- **2023.08.24(4일)**
+- 개인 프로젝트
+<br>친구의 손글씨 연습을 돕기위해 만들었습니다.
+<br>글자를 찾아 보여주는것 외에도 프린트해서 연습할 수 있도록 구현했습니다.
+<br>간단하게 출력만 하려고 바닐라 JS로 작성하였는데, 기능을 추가하고 싶어 React로 마이그레이션 할 계획입니다
+<br><br><a href="https://github.com/Ryusoo-h/printFont"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ryusoo-h&repo=printFont"/></a>
+<br><a href="https://ryusoo-h.github.io/printFont/">👉 printFont 페이지 보러가기</a>
+<table>
+ <thead>
+  <tr>
+   <th>메인 페이지(입력)</th>
+   <th>메인 페이지(원고지 크기 조절)</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/2f3c174c-1c69-45ce-a850-f42e861beacf"/></td>
+   <td><img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/02c84bb5-4f18-42ba-a3d8-ac150b71da17"/></td>
+  </tr>
+  <tr>
+   <th colSpan=2>인쇄 클릭시(여백 원고지 채움)</th>
+  </tr>
+  <tr>
+   <td colSpan=2><img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/9af9d479-57c3-46d2-8367-8a5e2969d472"/></td>
+  </tr>
+  
+ </tbody>
+</table>
+<br>
+
 ## myBoard
 공부 학습을 기록, 관리 하기위한 myBoard와 블로그입니다.
 - **2022.12 (2주)**
 - **리뉴얼 2023.05~**
 - 개인 프로젝트
 <br>당장 사용하기 위해 기획없이 빠르게 만들어 사용하기 위해 바닐라 JS로 만들었습니다.
-<br>사용하면서 필요한것이 생길때마다 변경/추가 중이기에, 어느 정도 틀이 잡혔을 때 리액트로 마이그레이션 해볼 계획입니다.
+<br>사용하면서 필요한것이 생길때마다 변경/추가 중이기에, 어느 정도 틀이 잡혔을 때 서버를 만들고 React로 마이그레이션 할 계획입니다
 <br><br><a href="https://github.com/Ryusoo-h/myBoard"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ryusoo-h&repo=myBoard"/></a>
 <br><a href="https://ryusoo-h.github.io/myBoard/">👉 myBoard 페이지 보러가기</a>
 <table>
@@ -169,7 +207,7 @@ README 업데이트 : 2023.07.12
 
 ## TODOLIST : 프리온보딩 프론트엔드 인턴십 (6월) 사전 과제
 React로 TODOLIST를 만들었습니다. 두번째 만드는 TodoList라 이전과 다른 디자인을 하고싶었습니다. 4일만에 촉박하게 만들었는데 목표하던건 다 만들어져서 즐거웠습니다.
-- **2023.06 ~ (4일)**
+- **2023.06(4일)**
 - 개인 과제
 <br><br><a href="https://github.com/Ryusoo-h/wanted-pre-onboarding-frontend"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ryusoo-h&repo=wanted-pre-onboarding-frontend"/></a>
 <br><a href="https://ryusoo-h.github.io">👉 TODOLIST 보러가기</a>
