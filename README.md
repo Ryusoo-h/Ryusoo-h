@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:FFF3c0,30:FFC0DE,100:009FFF&height=250&section=header&text=ryusoo-h%20github&fontSize=60)
 
-README 마지막 업데이트 : 2023.09.12
+README 마지막 업데이트 : 2023.11.10
 
 # 소개
 
