@@ -3,29 +3,9 @@
 README 마지막 업데이트 : 2023.09.12
 
 # 소개
- <details>
-  <summary>개발 공부</summary>
-  <div>
-   <table>
-    <tbody>
-     <tr>
-      <td>
-       <img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/3b806ae4-3e3a-41f7-a968-44b9cfe34e5c" alt="강의 학습 목록2" />
-       <img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/6b21b6c2-6842-4504-9eca-65bf589c5bcf" alt="강의 학습 목록1" />
-      </td>
-     </tr>
-     <tr>
-      <td>
-       <img src="https://github.com/Ryusoo-h/readme-test/assets/67295471/a3aadb92-6aa0-495f-a477-56cb3fb6c96a" alt="도서 학습 목록" />
-      </td>
-     </tr>
-    </tbody>
-   </table>
-  </div>
- </details>
 
 ## 자격증
-- **2023.06** 정보처리기사 필기 합격 (실기 준비중)
+- **2023.06** 정보처리기사 필기 합격 (실기 결과 기다리는중)
 - **2023.07** SQLD 합격
 
 ## 스택
@@ -50,9 +30,8 @@ README 마지막 업데이트 : 2023.09.12
    <td>
      <b>최근 학습중 :</b>
      <img align="top" src="https://img.shields.io/badge/react-61DAFB?style=flat&logo=react&logoColor=white" />
-     <img align="top" src="https://img.shields.io/badge/webpack-8DD6F9?style=flat&logo=webpack&logoColor=white" />
-     <img align="top" src="https://img.shields.io/badge/swr-000000?style=flat&logo=swr&logoColor=white" />
      <img align="top" src="https://img.shields.io/badge/vite-646CFF?style=flat&logo=vite&logoColor=white" />
+     <img align="top" src="https://img.shields.io/badge/jotai-333333?style=flat&logo=jotai&logoColor=white" />
    </td>
   </tr>
   <tr>
@@ -65,9 +44,11 @@ README 마지막 업데이트 : 2023.09.12
         리액트 공부를 하며 자주 접함 : 
         <img align="top" src="https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white" />
         <img align="top" src="https://img.shields.io/badge/yarn-2C8EBB?style=flat&logo=yarn&logoColor=white" />
+        <img align="top" src="https://img.shields.io/badge/webpack-8DD6F9?style=flat&logo=webpack&logoColor=white" />
         <img align="top" src="https://img.shields.io/badge/nodedotjs-339933?style=flat&logo=nodedotjs&logoColor=white" />
         <img align="top" src="https://img.shields.io/badge/express-000000?style=flat&logo=express&logoColor=white" />
         <img align="top" src="https://img.shields.io/badge/redux-764ABC?style=flat&logo=redux&logoColor=white" />
+        <img align="top" src="https://img.shields.io/badge/swr-000000?style=flat&logo=swr&logoColor=white" />
        </td>
       </tr>
       <tr>
@@ -84,12 +65,6 @@ README 마지막 업데이트 : 2023.09.12
         비동기 테스트를 위해 사용 :
         <img align="top" src="https://img.shields.io/badge/jsonServer-000000?style=flat&logo=jsonServer&logoColor=white" />
         <img align="top" src="https://img.shields.io/badge/postman-FF6C37?style=flat&logo=postman&logoColor=white" />
-       </td>
-      </tr>
-      <tr>
-       <td>
-        사이드 프로젝트를 하며 날짜 선택 라이브러리 사용 :  
-        <img align="top" src="https://img.shields.io/badge/ReactDatepicker-000000?style=flat&logo=ReactDatepicker&logoColor=white" />
        </td>
       </tr>
       <tr>
@@ -129,16 +104,55 @@ README 마지막 업데이트 : 2023.09.12
 
 (최신순)
 <ol>
+ <li><a href="#keep-on">KEEP ON</a></li>
  <li><a href="#printFont">printFont</a></li>
  <li><a href="#myboard">myBoard</a></li>
  <li><a href="#todolist--프리온보딩-프론트엔드-인턴십-6월-사전-과제">TODOLIST : 프리온보딩 프론트엔드 인턴십 (6월) 사전 과제</a></li>
  <li><a href="#날씨예보-앱">날씨예보 앱</a></li>
  <li><a href="#hanmadi">hanmadi</a></li>
  <li><a href="#에잇eight꿀잠">에잇(eight)꿀잠</a></li>
- <li><a href="#baroutine">Baroutine</a></li>
  <li><a href="#노마드코더-Zoom-클론코딩">노마드코더 Zoom 클론코딩</a></li>
 </ol>
 
+## KEEP ON
+링크들을 모아두고 태그로 정리하고 읽은 여부에 따라 관리할 수 있는 링크 저장소입니다.
+- **2023.09.22 ~ (개발중)**
+- 참여인원2명, 프론트엔드 담당
+- url을 입력하면 해당 글의 title을 가져오며 제목, 태그, 상태를 입력하여 저장할 수 있습니다.
+- 최근 저장순으로 보여주며, 최근에 읽던 글을 상단에 출력해 읽던 글 관리를 할 수 있도록 했습니다
+- 타이틀 또는 태그 검색이 가능합니다
+- 리팩토링 후 스켈레톤, 로딩중 출력을 구현할 예정입니다
+<table>
+ <thead>
+  <tr>
+   <th>로그인 페이지(서비스 안내 슬라이드)</th>
+   <th>로그인 페이지(로그인)</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/c67ab8bf-a48c-4029-8b59-da91272f0297"/></td>
+   <td><img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/13d54471-f271-4970-a18e-6ab115156564"/></td>
+  </tr>
+  <tr>
+   <th>링크 저장</th>
+   <th>링크 수정</th>
+  </tr>
+  <tr>
+   <td><img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/eefb54b5-719c-4d6f-afb4-3a4d0bc8c151"/></td>
+   <td><img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/c9c72bea-fb1d-4546-a4a4-56e79290a81e"/></td>
+  </tr>
+  <tr>
+   <th>링크 제목 검색</th>
+   <th>태그 검색</th>
+  </tr>
+  <tr>
+   <td><img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/e5ad17b7-ee9f-4ba0-b342-49e4fffa23ed"/></td>
+   <td><img src="https://github.com/Ryusoo-h/Ryusoo-h/assets/67295471/df89250d-559c-4cac-bcff-ea3492ba27fc"/></td>
+  </tr>
+ </tbody>
+</table>
+<br>
 
 ## printFont
 입력받은 글을 손글씨 스캔 자료에서 찾아 알려줍니다.
@@ -341,17 +355,6 @@ React로 TODOLIST를 만들었습니다. 두번째 만드는 TodoList라 이전�
 <br><br><a href="https://github.com/Ryusoo-h/nomadcodes_zoom_video"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ryusoo-h&repo=nomadcodes_zoom_video"/></a>
 <img src="https://user-images.githubusercontent.com/67295471/194081537-a0bc90c5-c6cd-40b2-839f-8467e9aff903.gif"/>
 <img src="https://user-images.githubusercontent.com/67295471/194078928-47ddf9a7-62b2-4e6c-bb68-b66bd7c0873d.gif"/>
-<br />
-
-
-## Baroutine
-바루틴(Baroutine) = ba른생활 + routine
-<br />하루시작을 정하고, 시작시간을 기준으로 생활계획표 출력. React 공부 후 만드려고 미루어두고있습니다.
-- **2022.08**
-- 개인프로젝트(미완성)
-<br><br><a href="https://github.com/Ryusoo-h/baroutine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ryusoo-h&repo=baroutine"/></a>
-<br><a href="https://ryusoo-h.github.io/baroutine/">👉 baroutine 보러가기</a>
-<img src="https://github.com/Ryusoo-h/readme-test/assets/67295471/3e8cc6bc-25ca-4ed2-af09-e185626f1205"/>
 <br />
 
 ## 모두모아
